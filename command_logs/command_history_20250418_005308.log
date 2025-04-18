@@ -1,0 +1,16 @@
+[2025-04-18 00:53:08] [/workspaces/cs190_LAB1] source .devcontainer/shell.sh
+[2025-04-18 01:30:02] [/workspaces/cs190_LAB1] touch hello.txt
+[2025-04-18 01:32:27] [/workspaces/cs190_LAB1] git add hello.txt
+[2025-04-18 01:33:32] [/workspaces/cs190_LAB1] git commit hello.txt -m ello
+[2025-04-18 01:33:40] [/workspaces/cs190_LAB1] git push
+[2025-04-18 01:45:34] [/workspaces/cs190_LAB1] tar -czvf hello.tar.gz hello.txt
+[2025-04-18 01:46:28] [/workspaces/cs190_LAB1] tar -xzvf hello.tar.gz
+[2025-04-18 01:47:25] [/workspaces/cs190_LAB1] zip hello.zip hello.txt
+[2025-04-18 01:48:01] [/workspaces/cs190_LAB1] unzip hello.zip
+[2025-04-18 01:57:31] [/workspaces/cs190_LAB1] time ./program.sh 100
+[2025-04-18 01:57:42] [/workspaces/cs190_LAB1] time ./program.sh 10000
+[2025-04-18 02:01:54] [/workspaces/cs190_LAB1] diff file_a.txt file_b.txt
+[2025-04-18 02:22:38] [/workspaces/cs190_LAB1] head very_large_text_file.txt
+[2025-04-18 02:23:00] [/workspaces/cs190_LAB1] tail very_large_text_file.txt
+[2025-04-18 02:25:01] [/workspaces/cs190_LAB1] more very_large_text_file.txt
+[2025-04-18 02:25:47] [/workspaces/cs190_LAB1] less very_large_text_file.txt

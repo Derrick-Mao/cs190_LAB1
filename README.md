@@ -34,6 +34,11 @@ The time program allows you to use figure out how long it took a specific progra
 What is the difference in time between task 1 and task 2?  
 **[YOUR ANSWER HERE]**
 
+10000 - 100<br/>
+real: 0m0.025s<br/>
+user: 0m0.026s<br/>
+sys: -0m0.001s<br/>
+
 # Part 4 `diff`
 When working with log files or any other text files we may want to compare two different text files to see what has changed between them. For example if you run a program twice with different arguments we may want to find out what is different between each programs outputs. Please refer to the following link for details on how to read the `diff` commands output.
 
@@ -44,6 +49,15 @@ https://people.eecs.berkeley.edu/~bh/v2ch2/diff.html
 
 Which lines and/or characters are different between these files?
 **[YOUR ANSWER HERE]**
+
+file b line 11 added "- Cloud backup integration"<br/>
+Phase 1: Core functionality (Weeks 1-3) changed to Weeks 1-4.<br/>
+file b line 18 added "- Design initial UI mockups"<br/>
+Phase 2: Feature development (Weeks 4-8) changed to Weeks 5-9.<br/>
+Phase 3: Testing and refinement (Weeks 9-12) changed to Weeks 10-12.<br/>
+React.js 18.0 changed to React.js 18.2.<br/>
+Express 4.18.0 changed to Express 4.18.2, and added "- Redis 7.0"<br/>
+Change on b line 43 added "- James Wilson: DevOps Specialist"<br/>
 
 # Part 5 `head`/`tail` `more`/`less`
 Sometimes we use the terminal to view very large text files such as system logs. Printing these large text files to the terminal usually forces portions to get cut off due to the buffer size of terminal emulator. While you could increase the buffer size to fit the entire file, this is not a great solution. We can use programs like head/tail to view the top or bottom of the files then scroll up from there. more and less do similar things, more allows forward navigation and minimal backwards navigation, while less allows for both forward and backwards navigation. 
